@@ -179,11 +179,11 @@ h5 {
 }
 
 .active {
-  background-image: url(./img/SVG/Star-activ.svg);
+  background-image: url(./img/svg/Star-activ.svg);
 }
 
 .inactive {
-  background-image: url(./img/SVG/Star-inactiv.svg);
+  background-image: url(./img/svg/Star-inactiv.svg);
 }
 
 .portfolio {
