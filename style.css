@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+}
+
+nav {
+  height: 88px;
+  line-height: 88px;
+  border-bottom: 1px solid #000;
+}
+
+nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #828282;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: all 0.4s;
+}
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+.topic {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: bottom;
+  align-items: flex-end;
+  padding: 30px 0;
+}
+
+h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  max-width: 123px;
+  line-height: 65px;
+}
+
+.topic-description {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.topic-description {
+  padding-bottom: 8px;
+}
+
+.language {
+  transform: rotate(180deg);
+  height: 65px;
+  writing-mode: vertical-rl;
+  padding-top: 8px;
+}
+
+span {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  color: #828282;
+}
+
+.separator {
+  color: #000000;
+  font-weight: 700;
+}
+
+.photo-denis {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.aboutme {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 110px 0 75px;
+}
+
+h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.aboutmeme-description {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+.skills {
+  padding-bottom: 110px;
+}
+
+.skills-title {
+  padding: 91px 0 69px;
+}
+
+.skills-description {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 0;
+  padding-bottom: 83px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 166px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card img {
+  height: 88px;
+  width: 88px;
+  margin: 0 auto;
+}
+
+h5 {
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  font-weight: 300;
+  width: 79px;
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  height: 26px;
+  width: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.active {
+  background-image: url(./img/SVG/Star-activ.svg);
+}
+
+.inactive {
+  background-image: url(./img/SVG/Star-inactiv.svg);
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+  padding-top: 112px;
+}
+
+.portfolio h2 {
+  padding-bottom: 47px;
+}
+
+a {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #000;
+  padding-bottom: 99px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(119, 107, 107);
+  transition: all 0.4s;
+}
+
+.portfolio-img img {
+  width: 100%;
+  padding: 37px 0 44px;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts h2 {
+  padding: 114px 0 22px;
+}
+
+.contacts-description {
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  width: 180px;
+  height: 42px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  font-family: "Heebo", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 30px auto 85px;
+  transition: all 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #07006d;
+}
+
+button:active {
+  background-color: #00e1ff;
+}
+
+.contacts-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 342px;
+  margin: 0 auto;
+}
+
+.contacts-icon img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+}
+
+.contacts-icon img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.icon-description {
+  font-family: "Heebo", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  font-weight: 300;
+  padding: 45px 0 123px;
+}
